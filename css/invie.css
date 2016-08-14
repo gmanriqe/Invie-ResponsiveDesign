@@ -238,10 +238,10 @@ input:focus, textarea:focus {
 }
 
 @media screen and (max-width: 800px){
-	/*.contenedor {
+	.contenedor {
 		width: auto;
-		max-width: 800px;
-	}*/
+		max-width: 800px; /*ojo*/
+	}
 
 	/*PORTADA*/
 
@@ -262,6 +262,43 @@ input:focus, textarea:focus {
 		margin-bottom: 30px;
 		display: inline-block;
 	}
+
+	/*PORTADA*/
+
+	/*GUITARRAS*/
+
+	.guitarras {
+		outline: 1px solid red;
+		text-align: center;
+	}
+
+	.derecha, .izquierda {
+		float: none;
+		position: static;
+	}
+
+	.title-b {
+		margin: 0;
+	}
+
+	.guitarra li {
+		list-style: none;
+	}
+
+	.guitarra.b {
+		height: auto;
+	}
+
+	.contenedor-guitarra-a {
+		padding: 0; /*ojo*/
+	}
+
+	.contenedor-guitarra-b {
+		position: static;
+		margin: 0;
+	}
+
+	/*GUITARRAS*/
 }
 /*font-family: 'Montserrat', sans-serif;*/
 /*font-family: 'Allerta', sans-serif;*/
