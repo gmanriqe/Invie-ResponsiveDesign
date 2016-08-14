@@ -300,5 +300,62 @@ input:focus, textarea:focus {
 
 	/*GUITARRAS*/
 }
+
+@media screen and (max-width: 650px){
+
+	.header {
+		text-align: center;
+	}
+
+	.logotipo {
+		margin: 0;
+	}
+
+	.menu {
+		/*outline: 1px solid red;*/
+		position: static;
+		display: block;
+	}
+
+	.menu li:first-child {
+		/*outline: 1px solid red;*/
+		margin: 0;
+	}
+
+	.menu ul {
+		padding: 0;
+	}
+}
+
+@media screen and (max-width: 500px){
+
+	.menu li {
+		display: block;
+		/*outline: 1px solid red;*/
+		margin: 0;
+		padding: 8px 0;
+		border-bottom: 1px solid #fff;
+	}
+
+	.menu li:first-child {
+		border-top: 1px solid #fff;
+	}
+
+	.menu li:before {
+		display: none;
+	}
+
+	.portada {
+		text-align: center;
+	}
+
+	.titulo {
+		font-size: 30px;
+	}
+
+	.title-a {
+		font-size: 16px;
+	}
+}
 /*font-family: 'Montserrat', sans-serif;*/
 /*font-family: 'Allerta', sans-serif;*/
