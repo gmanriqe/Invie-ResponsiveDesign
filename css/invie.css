@@ -268,7 +268,7 @@ input:focus, textarea:focus {
 	/*GUITARRAS*/
 
 	.guitarras {
-		outline: 1px solid red;
+		/*outline: 1px solid red;*/
 		text-align: center;
 	}
 
@@ -328,6 +328,8 @@ input:focus, textarea:focus {
 }
 
 @media screen and (max-width: 500px){
+	
+	/*PORTADA*/
 
 	.menu li {
 		display: block;
@@ -356,6 +358,20 @@ input:focus, textarea:focus {
 	.title-a {
 		font-size: 16px;
 	}
+
+	/*PORTADA*/
+
+	/*GUITARRAS*/
+
+	.guitarra img {
+		width: 200px;
+	}
+
+	.title-b {
+		font-size: 30px;
+	}
+
+	/*GUITARRAS*/
 }
 /*font-family: 'Montserrat', sans-serif;*/
 /*font-family: 'Allerta', sans-serif;*/
