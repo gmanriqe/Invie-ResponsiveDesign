@@ -237,5 +237,31 @@ input:focus, textarea:focus {
 	margin: 50px 0;
 }
 
+@media screen and (max-width: 800px){
+	/*.contenedor {
+		width: auto;
+		max-width: 800px;
+	}*/
+
+	/*PORTADA*/
+
+	.titulo {
+		font-size: 45px;
+		margin-top: 30px;
+	}
+
+	.titulo-a {
+		font-size: 18px;
+	}
+
+	.portada {
+		height: auto;
+	}
+
+	.portada .button {
+		margin-bottom: 30px;
+		display: inline-block;
+	}
+}
 /*font-family: 'Montserrat', sans-serif;*/
 /*font-family: 'Allerta', sans-serif;*/
