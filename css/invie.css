@@ -427,6 +427,32 @@ input:focus, textarea:focus {
 }
 
 @media screen and (max-width: 500px){
+
+	/*BURGUER*/
+
+	.portada .contenedor {
+		position: static;
+	}
+	
+	.menu {
+		outline: 1px solid red;
+		/*background-color: #ff3c58;*/
+		background-color: rgba(255,60,88, .8);
+		position: absolute;
+		left: 0;
+		top: 0;
+		z-index: 2;
+		bottom: 0; /*truco para que tome todo el alto*/
+		right: 0; /*truco para que tome todo el alto*/
+		display: flex;
+		align-items: center
+	}
+
+	.menu ul {
+		flex: 1; /* flex:1 es una propiedad que se hereda de flex. Lo que hace es ocupar todo el ancho disponible*/
+	}
+
+	/*BURGUER*/
 	
 	/*PORTADA*/
 
