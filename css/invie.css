@@ -516,7 +516,7 @@ video {
 
 .video-responsive-contenedor {
 	position: relative;
-	padding-top: 56.25%; /* 56.25% es el alto en porcentaje del video*/
+	padding-top: 56.25%; /* por regla de 3 simple, sabien el width="560" height="315" del iframe*/
 }
 
 .video-responsive-src {
@@ -528,6 +528,15 @@ video {
 	width: 100%;
 	height: 100%;
 }
+
+@media screen and (-webkit-min-device-pixel-ratio: 2){
+	.background {
+		background-color: #466173; /*progessive enhancement*/
+		background-image: url('../images/background2x.png');
+		background-size: cover;
+	}
+}
+
 /*font-family: 'Montserrat', sans-serif;*/
 /*font-family: 'Allerta', sans-serif;*/
 
