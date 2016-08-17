@@ -23,3 +23,7 @@ mediaQuery();
 
 // LAZY LOADING
 
+var bLazy = new Blazy ({
+	selector : 'img',
+	
+});
