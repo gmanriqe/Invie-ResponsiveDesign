@@ -20,3 +20,6 @@ function mediaQuery() {
 	}
 }
 mediaQuery();
+
+// LAZY LOADING
+
