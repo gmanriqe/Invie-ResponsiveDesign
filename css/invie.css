@@ -185,7 +185,8 @@ input:focus, textarea:focus {
 .derecha {
 	float: right;
 	position: relative;
-	top: -127px;
+	/*top: -127px;*/
+	top: -92px;
 }
 
 .izquierda {
@@ -201,7 +202,7 @@ input:focus, textarea:focus {
 .contenedor-guitarra-b {
 	margin-left: 370px;
 	position: relative;
-	bottom: 90px;
+	bottom: 60px;
 	/*padding-left: ;*/
 }
 
@@ -290,6 +291,7 @@ input:focus, textarea:focus {
 	background-color: #395667;
 	display:inline-block;
 	text-align: center;
+	position: fixed;
 	left: 20px;
 	top: 20px;
 	color: white;
@@ -310,7 +312,7 @@ input:focus, textarea:focus {
 .video-demo-contenedor {
 	display: flex;
 	justify-content: center;
-	margin-bottom: 80px;
+	margin-bottom: 90px;
 }
 
 /*VIDEO-DEMO*/
@@ -495,7 +497,7 @@ input:focus, textarea:focus {
 		outline: 1px solid red;
 		/*background-color: #ff3c58;*/
 		background-color: rgba(255,60,88, .8);
-		position: absolute;
+		position: fixed;
 		left: -501px;
 		top: 0;
 		z-index: 2;
@@ -513,6 +515,10 @@ input:focus, textarea:focus {
 
 	.menu ul {
 		flex: 1; /* flex:1 es una propiedad que se hereda de flex. Lo que hace es ocupar todo el ancho disponible*/
+	}
+
+	.portada .button{
+		display: block;
 	}
 
 	/*PORTADA*/
@@ -568,6 +574,22 @@ input:focus, textarea:focus {
 	}
 
 	/*VIDEO*/
+
+	/*PRECIOS*/
+	
+	.precios .header .logotipo {
+		margin: 50px 0;
+	}
+
+	/*PRECIOS*/
+
+	/*FOOTER*/
+	
+	.col2 {
+		align-items: stretch;
+	}
+
+	/*FOOTER*/
 }
 
 /*CON ETIQUETA VIDEO*/
