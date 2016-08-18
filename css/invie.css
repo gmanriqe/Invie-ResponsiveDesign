@@ -290,15 +290,30 @@ input:focus, textarea:focus {
 	background-color: #395667;
 	display:inline-block;
 	text-align: center;
-	position: absolute;
 	left: 20px;
 	top: 20px;
 	color: white;
 	z-index: 3;
+	display: none
 }
 
 /*BURGUER*/
 
+/*VIDEO-DEMO*/
+
+.video-demo {
+	max-width: 500px;
+	width: 100%;
+	border: 5px solid #3c5b6e;
+}
+
+.video-demo-contenedor {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 80px;
+}
+
+/*VIDEO-DEMO*/
 @media screen and (max-width: 800px){
 	.contenedor {
 		width: auto;
@@ -373,6 +388,14 @@ input:focus, textarea:focus {
 	}
 
 	/*GUITARRAS*/
+
+	/*VIDEO*/
+	
+	.video-demo-contenedor {
+		margin-bottom: 30px;
+	}
+
+	/*VIDEO*/
 }
 
 @media screen and (max-width: 767px){
@@ -438,11 +461,23 @@ input:focus, textarea:focus {
 	.menu ul {
 		padding: 0;
 	}
+
+	/*VIDEO-DEMO*/
+
+	/*.video-demo {
+		margin: 0 10px;
+	}*/
+
+	/*VIDEO-DEMO*/
 }
 
 @media screen and (max-width: 500px){
 
 	/*PORTADA*/
+
+	.burguer-button {
+		display: block
+	}
 
 	.portada .contenedor {
 		position: static;
@@ -525,6 +560,14 @@ input:focus, textarea:focus {
 	}
 
 	/*GUITARRAS*/
+
+	/*VIDEO*/
+	
+	.video-demo-contenedor {
+		margin: 0 10px 30px 10px;
+	}
+
+	/*VIDEO*/
 }
 
 /*CON ETIQUETA VIDEO*/
