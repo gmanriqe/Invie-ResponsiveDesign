@@ -293,6 +293,7 @@ input:focus, textarea:focus {
 	position: absolute;
 	left: 20px;
 	top: 20px;
+	color: white;
 	z-index: 3;
 }
 
@@ -303,6 +304,18 @@ input:focus, textarea:focus {
 		width: auto;
 		max-width: 800px; /*ojo*/
 	}
+
+	/*PRECIOS*/
+
+	.tabla {
+		margin: 50px 20px;
+	}
+	.tabla .contenedor {
+		overflow: auto;
+		border: 1px solid #273b47;
+	}
+	
+	/*PRECIOS*/
 
 	/*PORTADA*/
 
@@ -429,9 +442,17 @@ input:focus, textarea:focus {
 
 @media screen and (max-width: 500px){
 
-	/*BURGUER*/
+	/*PORTADA*/
 
 	.portada .contenedor {
+		position: static;
+	}
+
+	.header {
+		position: static;
+	}
+
+	.header .contenedor {
 		position: static;
 	}
 	
@@ -459,9 +480,9 @@ input:focus, textarea:focus {
 		flex: 1; /* flex:1 es una propiedad que se hereda de flex. Lo que hace es ocupar todo el ancho disponible*/
 	}
 
-	/*BURGUER*/
-	
 	/*PORTADA*/
+	
+	/*BURGUER*/
 
 	.menu li {
 		display: block;
@@ -491,7 +512,7 @@ input:focus, textarea:focus {
 		font-size: 16px;
 	}
 
-	/*PORTADA*/
+	/*BURGUER*/
 
 	/*GUITARRAS*/
 
@@ -516,7 +537,7 @@ video {
 
 .video-responsive-contenedor {
 	position: relative;
-	padding-top: 56.25%; /* por regla de 3 simple, sabien el width="560" height="315" del iframe*/
+	padding-top: 56.25%; /* por regla de 3 simple, sabiendo el width="560" height="315" del iframe*/
 }
 
 .video-responsive-src {
